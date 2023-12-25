@@ -4,7 +4,7 @@ pipeline {
     stage('build') {
       steps {
         echo 'Hello'
-        dotnetBuild(project: 'Jenkins.sln', option: 'Release', sdk: '7.0.400')
+        dotnetBuild(project: 'Jenkins.sln', option: 'Release', sdk: '7')
       }
     }
 
